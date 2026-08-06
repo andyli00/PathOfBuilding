@@ -1,3 +1,27 @@
+VERSION[beta][2026/08/06]
+
+--- New to Path of Building ---
+* Add support for select pseudo stats in trader weights (vaisest)
+
+--- Fixed Crashes ---
+* Fix crash when double clicking and dragging an item on small window sizes (vaisest)
+* Fix crash from equipping Quivers and Shields that grant a skills (LocalIdentity)
+
+--- Fixed Calculations ---
+* Fix Chip Away not using a global limit + count Foulgrasp Brand limit stat (Trifall)
+* Fix Block chance rounding with Mana-Infused Staff (LocalIdentity)
+
+--- Fixed Behaviours ---
+* Fix harvest Weapon Range enchant not appearing properly (vaisest)
+* Prevent recursion from stopping on file errors in build list (xoxorwr)
+* Fix missing modifier controls on imported items (vaisest)
+* Fix file sort not using folder name when determining the sort order of builds (xoxorwr)
+* Fix Buy Similar searches for punctuated unique names (mcagnion)
+
+--- Other changes ---
+* Release 2.67.1 (github-actions[bot])
+
+
 VERSION[2.67.1][2026/08/06]
 
 --- New to Path of Building ---
